@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
             address: '183 N.S.K. Salai, Arcot Rd, Vadapalani Hotel Green Park, Chennai (Madras) 600026 India',
             menuCards: [
                 'https://th.bing.com/th/id/R.0b55bb04a82468dbf6152a4b061f530f?rik=3Z9xeqIaFwqJPg&riu=http%3a%2f%2fstonelotus.in%2fvemkat2016%2fStoneLotus%2fwp-content%2fuploads%2f2020%2f01%2fOverall_night-min-scaled.jpg&ehk=0k7KIcFcpBWsujElgewINZXqZGjF5BiPQ2zAX%2fvopXw%3d&risl=&pid=ImgRaw&r=0',
-                'https://images.unsplash.com/photo-1628294896998-31c7ebbf787c'
+                'https://img4.nbstatic.in/tr:w-500/56ae5c0b0b04512cde6c4746.jpg'
             ],
             reviews: [
                 {
@@ -264,18 +264,18 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: '8',
-            name: 'Hard Rock Cafe',
-            cuisine: 'American',
-            rating: 4.6,
+            name: 'The Reef',
+            cuisine: 'Indian,International',
+            rating: 4.9,
             priceLevel: 3,
             distance: 1.0,
             lat: 40.7145,
             lng: -74.0075,
-            photo: 'https://www.hardrockcafe.com/location/hyderabad/files/5394/9969152_ImageLargeWidth.jpeg',
+            photo: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/eb/88/68/the-reef-all-day-dining.jpg?w=1400&h=800&s=1',
             hours: { open: 11, close: 22 },
-            address: 'Road Number 1, Gvk One, Banjara Hills, Hyderabad 500034 India',
+            address: '280 ECR, Vadanamelli Sheraton Grand Chennai Resort & Spa, Chennai (Madras) 603104 India',
             menuCards: [
-                'https://im1.dineout.co.in/images/uploads/restaurant/sharpen/9/p/y/p97249-1632397326614c680edb582.jpg?tr=tr:n-xlarge',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/74/49/38/jhind.jpg?w=800&h=600&s=1',
                 'https://images.unsplash.com/photo-1628294896998-31c7ebbf787c'
             ],
             reviews: [
