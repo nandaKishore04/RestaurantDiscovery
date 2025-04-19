@@ -271,12 +271,12 @@ document.addEventListener('DOMContentLoaded', () => {
             distance: 1.0,
             lat: 40.7145,
             lng: -74.0075,
-            photo: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/eb/88/68/the-reef-all-day-dining.jpg?w=1400&h=800&s=1',
+            photo: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/7a/20/7a/caption.jpg?w=1100&h=-1&s=1',
             hours: { open: 11, close: 22 },
             address: '280 ECR, Vadanamelli Sheraton Grand Chennai Resort & Spa, Chennai (Madras) 603104 India',
             menuCards: [
-                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/74/49/38/jhind.jpg?w=800&h=600&s=1',
-                'https://images.unsplash.com/photo-1628294896998-31c7ebbf787c'
+                'https://d4t7t8y8xqo0t.cloudfront.net/app/resized/750X/restaurant/657411/restaurant020181004072611.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/eb/88/68/the-reef-all-day-dining.jpg?w=1400&h=800&s=1'
             ],
             reviews: [
                 {
