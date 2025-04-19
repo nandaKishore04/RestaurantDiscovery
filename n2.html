@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Finder</title>
+    <link rel="stylesheet" href="n2.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search restaurants, cuisines, or dishes...">
+                <button id="searchButton">Search</button>
+                <ul id="suggestions"></ul>
+            </div>
+            <div>
+                <span id="userName">Guest</span>
+                <button id="profileToggle">Profile</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="profileSection">
+            <h2>User Profile</h2>
+            <div class="profile-form">
+                <label>Name:
+                    <input type="text" id="profileName" disabled>
+                </label>
+                <label>Phone:
+                    <input type="tel" id="profilePhone" disabled>
+                </label>
+                <label>Email:
+                    <input type="email" id="profileEmail" disabled>
+                </label>
+                <label>Address:
+                    <input type="text" id="profileAddress" disabled>
+                </label>
+                <div class="profile-actions">
+                    <button id="editProfile">Edit</button>
+                    <button id="saveProfile">Save</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="filterPanel">
+            <div class="filter-group">
+                <select id="cuisineFilter">
+                    <option value="">All Cuisines</option>
+                    <option value="American">American</option>
+                    <option value="Italian">Italian</option>
+                    <option value="Mexican">Mexican</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="Indian">Indian</option>
+                    <option value="Indian,Asian">Indian,Asian</option>
+                    <option value="Mediterranean">Mediterranean</option>
+                </select>
+
+                <div id="ratingFilter">
+                    <button class="rating-option" data-rating="0">All</button>
+                    <button class="rating-option" data-rating="4">4+</button>
+                    <button class="rating-option" data-rating="4.5">4.5+</button>
+                </div>
+
+                <div id="priceFilter">
+                    <button class="price-option" data-min="1" data-max="4">All</button>
+                    <button class="price-option" data-min="1" data-max="2">$</button>
+                    <button class="price-option" data-min="3" data-max="4">$$</button>
+                </div>
+
+                <label>
+                    <input type="checkbox" id="openNowFilter"> Open Now
+                </label>
+
+                <select id="sortBy">
+                    <option value="distance">Distance</option>
+                    <option value="rating">Rating</option>
+                    <option value="price">Price</option>
+                </select>
+
+                <input type="text" id="locationFilter" placeholder="Location">
+                <button id="locationButton">Use Location</button>
+                <button id="useCurrentLocation">Current Location</button>
+            </div>
+        </div>
+
+        <div id="map"></div>
+        <div id="restaurantList"></div>
+        <div id="restaurantDetails"></div>
+    </main>
+
+    <script src="n2.js"></script>
+</body>
+</html>
