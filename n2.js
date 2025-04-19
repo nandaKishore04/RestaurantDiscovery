@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
             hours: { open: 11, close: 22 },
             address: '183 N.S.K. Salai, Arcot Rd, Vadapalani Hotel Green Park, Chennai (Madras) 600026 India',
             menuCards: [
-                'https://im1.dineout.co.in/images/uploads/restaurant/sharpen/9/p/y/p97249-1632397326614c680edb582.jpg?tr=tr:n-xlarge',
+                'https://th.bing.com/th/id/R.0b55bb04a82468dbf6152a4b061f530f?rik=3Z9xeqIaFwqJPg&riu=http%3a%2f%2fstonelotus.in%2fvemkat2016%2fStoneLotus%2fwp-content%2fuploads%2f2020%2f01%2fOverall_night-min-scaled.jpg&ehk=0k7KIcFcpBWsujElgewINZXqZGjF5BiPQ2zAX%2fvopXw%3d&risl=&pid=ImgRaw&r=0',
                 'https://images.unsplash.com/photo-1628294896998-31c7ebbf787c'
             ],
             reviews: [
